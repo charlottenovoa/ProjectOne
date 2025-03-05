@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #e4adc3;
+    background-color: #b6dcb8;
 }
 
 nav {
@@ -42,6 +42,12 @@ header {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: #21381f;
+    font-weight: bold;
+}
+
 h1 {
     text-align: center;
     font-family: "Caprasimo", serif;
@@ -49,44 +55,66 @@ h1 {
     font-size: 60px;
     padding: 10%;
     color: #21381f;
+} 
+
+h3 {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #21381f;
+    text-align: center;
 }
 
 p {
     font-family: "Instrument Serif", serif;
-    font-weight: bold;
-    padding: 20px;
     display: block;
-    text-align: center;
-    background-color: white ;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
-}
-
-a {
-    text-decoration: none;
-    color: #21381f;
-    font-weight: bold;
-}
-
-.bio {
-    border-color: #21381f;
-    border-width: 2px;
+    background-color: white;
     border-style: solid;
+    border-color: black;
 }
 
+.kep1blurb {
+    padding: 10%;
 
-.char {
-    padding-bottom: 0px;
+}
+
+.illitblurb {
+    padding: 10%;
+}
+
+.heartblurb {
+    padding: 5px;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: auto;
+    
+}
+
+img {
+    padding: 10%;
+    padding-top: 2px;
     display: block;
-    background-color: #b6dcb8;
-    padding-left: 29%;
-    padding-right: 30%;
 }
 
-#mainInfo {
+#kep1 {
     display: flex;
     flex-direction: row;
+}
+
+#gllit {
+    display: flex;
+    flex-direction: row;
+}
+
+#rei {
+    display: flex;
+    flex-direction: row;
+}
+
+#id {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
