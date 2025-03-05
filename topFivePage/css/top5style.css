@@ -58,8 +58,15 @@ h1 {
 } 
 
 h3 {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+p {
     font-family: "Instrument Serif", serif;
     font-weight: bold;
+    font-size: 17px;
 }
 
 ol {
@@ -93,13 +100,14 @@ ul {
 }
 
 #sanrioList {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 #bakeList {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 footer {
     background-color: #cf5f8d;
